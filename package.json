@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  },
+  "name": "slabman",
+  "version": "1.0.0",
+  "description": "Slab Manager is a library that manages memory slaps from WebAssembly memory",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "biome check --write ./"
+  },
+  "type": "module",
+  "keywords": [
+    "slab technique",
+    "WebAssembly memory",
+    "Memory",
+    "Slab"
+  ],
+  "author": "",
+  "license": "MIT"
+}
